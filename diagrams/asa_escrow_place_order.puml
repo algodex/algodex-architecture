@@ -1,0 +1,21 @@
+@startuml
+actor Buyer
+actor Seller
+control "Algo Escrow (Buy)\nStateless" as AlgoEscrow
+control "ASA Escrow (Sell)\nStateless" as ASAEscrow
+database "Algo OB\nStateful" as AlgoOB
+database "ASA OB\nStateful" as ASAOB
+note over AlgoEscrow: ALGO reserved for buy
+note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
+
+group "Placing an ASA Escrow Order: ASA Orderbook Opt-in"
+autonumber 0
+Seller -> ASAEscrow: Send future .5 txn fees into escrow
+ASAEscrow -> ASAOB: App opt-in
+note left: TEAL attached\nfor spend approval
+ASAEscrow -> ASAEscrow: ASA opt-in
+note right: TEAL attached\nfor spend approval
+Seller -> ASAEscrow: Send ASA to be sold to escrow
+end
+
+@enduml

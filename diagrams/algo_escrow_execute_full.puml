@@ -1,0 +1,20 @@
+@startuml
+actor Buyer
+actor Seller
+control "Algo Escrow (Buy)\nStateless" as AlgoEscrow
+control "ASA Escrow (Sell)\nStateless" as ASAEscrow
+database "Algo OB\nStateful" as AlgoOB
+database "ASA OB\nStateful" as ASAOB
+note over AlgoEscrow: ALGO reserved for buy
+note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
+
+group "Algo Escrow Pay (Order Exec)\nwith Closeout - Initiated by ASA Seller"
+autonumber 0
+AlgoEscrow -> ASAOB: app call to closeout
+note left: TEAL attached\nfor spend approval
+AlgoEscrow -> Seller: ALGO payment\nof order amount
+note right: TEAL attached\nfor spend approval
+Seller -> Buyer: Asset send\nof sell amount\nto buy escrow owner
+end
+
+@enduml

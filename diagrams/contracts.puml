@@ -81,7 +81,6 @@ autonumber 0
 ASAEscrow -> ASAOB: app call
 note left: TEAL attached\nfor spend approval
 Buyer -> Seller: ALGO payment\nof partial order amount
-note right: TEAL attached\nfor spend approval
 Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
 ASAEscrow -> Buyer: Asset send\nof partial sell amount\nto buy escrow owner
 note right: TEAL attached\nfor spend approval
@@ -93,7 +92,6 @@ autonumber 0
 ASAEscrow -> ASAOB: app call
 note left: TEAL attached\nfor spend approval
 Buyer -> Seller: ALGO payment\nof partial order amount
-note right: TEAL attached\nfor spend approval
 Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
 ASAEscrow -> Buyer: Asset send\nof full sell amount\nto buy escrow owner
 note right: TEAL attached\nfor spend approval

@@ -1,0 +1,20 @@
+@startuml
+actor Buyer
+actor Seller
+control "Algo Escrow (Buy)\nStateless" as AlgoEscrow
+control "ASA Escrow (Sell)\nStateless" as ASAEscrow
+database "Algo OB\nStateful" as AlgoOB
+database "ASA OB\nStateful" as ASAOB
+note over AlgoEscrow: ALGO reserved for buy
+note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
+
+group "Algo Escrow Cancel-Order - Initiated By ASA Escrow Owner"
+autonumber 0
+AlgoEscrow -> AlgoOB: app 'clear state' call
+note left: TEAL attached\nfor spend approval
+AlgoEscrow -> Buyer: ALGO 'close-to' account - 0 ALGO send\nw/ close-to creator
+note right: X ALGO refunded to Buyer\nvia escrow 'close'\nTEAL attached\nfor spend approval
+Buyer -> Buyer: 0 ALGO payment\nto ensure ownership
+end
+
+@enduml
