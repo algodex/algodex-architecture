@@ -14,7 +14,7 @@ ASAEscrow -> ASAOB: app call
 note left: TEAL attached\nfor spend approval
 Buyer -> Seller: ALGO payment\nof partial order amount
 Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
-ASAEscrow -> Buyer: Asset send\nof full sell amount\nto buy escrow owner
+ASAEscrow -> Buyer: Asset send\nof full sell amount\nto buyer
 note right: Closes out remaining ASA balance to Seller
 ASAEscrow -> Seller: Closeout of minimum algo balance
 end
