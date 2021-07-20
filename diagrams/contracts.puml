@@ -8,16 +8,16 @@ database "ASA OB\nStateful" as ASAOB
 note over AlgoEscrow: ALGO reserved for buy
 note over ASAEscrow: Min .46 ALGO bal.\n+ ASA to sell
 
-group "Orderbook Opt-In & Registration"
+group "Placing an Algo Escrow Order: Orderbook Opt-In & Registration"
 autonumber 0
 Buyer -> AlgoEscrow: Pay from order creator to escrow
 note right: send X ALGO\nto pay for Y ASA
 AlgoEscrow -> AlgoOB: [if necessary] App opt-in
 note left: TEAL attached\nfor spend approval
-AlgoEscrow -> Buyer: [if necessary] Opt-in to ASA to buy
+Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
 end
 
-group "Closeout (Buy Order Cancelled)"
+group "Closeout (Algo Buy Order Cancelled)"
 autonumber 0
 AlgoEscrow -> AlgoOB: app 'clear state' call
 note left: TEAL attached\nfor spend approval
@@ -26,9 +26,9 @@ note right: X ALGO refunded to Buyer\nvia escrow 'close'\nTEAL attached\nfor spe
 Buyer -> Buyer: 0 ALGO payment\nto ensure ownership
 end
 
-group "ASA Orderbook Opt-in"
+group "Placing an ASA Escrow Order: ASA Orderbook Opt-in"
 autonumber 0
-Seller -> ASAEscrow: Send future .46 txn fees into escrow
+Seller -> ASAEscrow: Send future .5 txn fees into escrow
 ASAEscrow -> ASAOB: App opt-in
 note left: TEAL attached\nfor spend approval
 ASAEscrow -> ASAEscrow: ASA opt-in
@@ -36,7 +36,7 @@ note right: TEAL attached\nfor spend approval
 Seller -> ASAEscrow: Send ASA to be sold to escrow
 end
 
-group "ASA Sell (Cancel-Order)"
+group "ASA Escrow Cancel-Order"
 autonumber 0
 ASAEscrow -> ASAOB: app call to clear
 note left: TEAL attached\nfor spend approval
@@ -47,25 +47,23 @@ note right: TEAL attached\nfor spend approval
 Seller -> Seller: 0 ALGO payment\nto ensure ownership
 end
 
-group "Pay (Order Exec)\nwith Closeout"
+group "Algo Escrow Pay (Order Exec)\nwith Closeout - Initiated by ASA Seller"
 autonumber 0
-AlgoEscrow -> ASAOB: app call to clear
+AlgoEscrow -> ASAOB: app call to closeout
 note left: TEAL attached\nfor spend approval
 AlgoEscrow -> Seller: ALGO payment\nof order amount
 note right: TEAL attached\nfor spend approval
-ASAEscrow -> Buyer: Asset send\nof sell amount\nto buy escrow owner
-note right: TEAL attached\nfor spend approval
+Seller -> Buyer: Asset send\nof sell amount\nto buy escrow owner
 end
 
-group "Pay (Order Exec)\nPartial Exec."
+group "Algo Escrow Pay (Order Exec)\nPartial Exec. - Initiated by ASA Seller"
 autonumber 0
 AlgoEscrow -> ASAOB: app call
 note left: TEAL attached\nfor spend approval
 AlgoEscrow -> Seller: ALGO payment\nof partial order amount
 note right: TEAL attached\nfor spend approval
-ASAEscrow -> Buyer: Asset send\nof partial sell amount\nto buy escrow owner
+Seller -> Buyer: Asset send\nof partial sell amount\nto buy escrow owner
 note right: TEAL attached\nfor spend approval
-Buyer -> AlgoEscrow: fee refund transaction
+Seller -> AlgoEscrow: fee refund transaction
 end
-
 @enduml
