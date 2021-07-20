@@ -12,7 +12,6 @@ note left: TEAL attached\nfor spend approval
 AlgoEscrow -> Seller: ALGO payment\nof partial order amount
 note right: TEAL attached\nfor spend approval
 Seller -> Buyer: Asset send\nof partial sell amount\nto buy escrow owner
-note right: TEAL attached\nfor spend approval
 Seller -> AlgoEscrow: fee refund transaction
 end
 
