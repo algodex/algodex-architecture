@@ -1,0 +1,55 @@
+@startuml
+
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity asset_info {
+  *PK_asset_info_id : int <<generated>>
+  --
+  *asset_id : bigint [I]
+  *asset_info : blob
+  *asset_name : varchar(40)  [I]
+  *unit_name : varchar(10)  [I]
+}
+
+entity config {
+  round bigint
+}
+
+entity orderbook {
+  *PK_orderbook_id : int <<generated>>
+  --
+  *round : bigint unsigned
+  *appid : bigint unsigned
+  *assetid : bigint unsigned [I]]
+  *address : varchar(100)
+  *ownerAddress : varchar(100)
+  *numerator : bigint unsigned
+  *denominator : bigint unsigned
+  *minimum : bigint unsigned
+  *algoAmount : bigint unsigned
+  *asaAmount : bigint unsigned
+}
+entity trade_history {
+  *PK_trade_history_id : int <<generated>>
+  --
+  transaction_id : varchar(100)
+  *group_id : varchar(100)
+  *unix_time : bigint unsigned [i]
+  *block_round : bigint unsigned
+  *application_id : bigint unsigned
+  *asset_id : bigint unsigned [i]
+  *asaPrice : decimal(30, 12)
+  *algoAmount : bigint unsigned
+  *asaAmount : bigint unsigned
+  *asaBuyerAddress : varchar(100) [i]
+  *asaSellerAddress : varchar(100) [i]
+  *tradeType : varchar(20)
+}
+
+trade_history }|..|| asset_info
+orderbook }|..|| asset_info
+@enduml
