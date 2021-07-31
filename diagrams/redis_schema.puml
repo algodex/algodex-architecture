@@ -1,0 +1,17 @@
+@startjson
+{
+    "dexidx:algod:round" : "algo round #",
+    "dexidx:accounts:watched" : [
+        "[SET]",
+        "account 1",
+        "account 2",
+        "account 3..."
+    ],
+    "dexidx:account:{account X}" : "{account json} TTL 7d",
+    "dexidx:account:{account Y}" : "{account json} TTL 7d",
+    "dexidx:account:{account Z...}" : "{account json} TTL 7d",
+    "dexidx:asset:info:{asset id x}" : "{asset json} TTL 1h",
+    "dexidx:asset:info:{asset id y}" : "{asset json} TTL 1h",
+    "dexidx:asset:info:{asset id z...}" : "{asset json} TTL 1h"
+}
+@endjson
