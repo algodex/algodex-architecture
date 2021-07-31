@@ -8,11 +8,11 @@ note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
 group "ASA Escrow Cancel-Order - Initiated By ASA Escrow Owner"
 autonumber 0
 ASAEscrow -> ASAOB: app call to clear
-note left: TEAL attached\nfor spend approval
+note left: TEAL attached\nfor approval
 ASAEscrow -> Seller: ASA 'close-to'
-note right: TEAL attached\nfor spend approval
+note right: TEAL attached\nfor approval
 ASAEscrow -> Seller: refund txn fees (ALGO 'close-to')
-note right: TEAL attached\nfor spend approval
+note right: TEAL attached\nfor approval
 Seller -> Seller: 0 ALGO payment\nto ensure ownership
 end
 

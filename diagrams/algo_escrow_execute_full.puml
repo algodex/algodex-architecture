@@ -7,8 +7,8 @@ note over AlgoEscrow: ALGO reserved for buy
 
 group "Algo Escrow Pay (Order Exec)\nwith Closeout - Initiated by ASA Seller"
 autonumber 0
-AlgoEscrow -> ASAOB: app call to closeout
-note left: TEAL attached\nfor spend approval
+AlgoEscrow -> AlgoOB: app call to closeout
+note left: TEAL attached\nfor approval
 AlgoEscrow -> Seller: ALGO payment\nof order amount
 note right: TEAL attached\nfor spend approval
 Seller -> Buyer: Asset send\nof sell amount\nto buy escrow owner

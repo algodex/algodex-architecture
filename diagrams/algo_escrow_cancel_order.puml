@@ -8,7 +8,7 @@ note over AlgoEscrow: ALGO reserved for buy
 group "Algo Escrow Cancel-Order - Initiated By ASA Escrow Owner"
 autonumber 0
 AlgoEscrow -> AlgoOB: app 'clear state' call
-note left: TEAL attached\nfor spend approval
+note left: TEAL attached\nfor approval
 AlgoEscrow -> Buyer: ALGO 'close-to' account - 0 ALGO send\nw/ close-to creator
 note right: X ALGO refunded to Buyer\nvia escrow 'close'\nTEAL attached\nfor spend approval
 Buyer -> Buyer: 0 ALGO payment\nto ensure ownership

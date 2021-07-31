@@ -10,7 +10,7 @@ autonumber 0
 Buyer -> AlgoEscrow: Pay from order creator to escrow
 note right: send X ALGO\nto pay for Y ASA
 AlgoEscrow -> AlgoOB: [if necessary] App opt-in
-note left: TEAL attached\nfor spend approval
+note left: TEAL attached\nfor approval
 Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
 end
 

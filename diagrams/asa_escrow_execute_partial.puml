@@ -8,12 +8,12 @@ note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
 group "ASA Escrow Pay (Order Exec)\nPartial Exec. - Initiated by ASA Buyer"
 autonumber 0
 ASAEscrow -> ASAOB: app call
-note left: TEAL attached\nfor spend approval
+note left: TEAL attached\nfor approval
 Buyer -> Seller: ALGO payment\nof partial order amount
 Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
 ASAEscrow -> Buyer: Asset send\nof partial sell amount\nto buyer
-note right: TEAL attached\nfor spend approval
-Buyer -> AlgoEscrow: fee refund transaction
+note right: TEAL attached\nfor approval
+Buyer -> ASAEscrow: fee refund transaction
 end
 
 @enduml

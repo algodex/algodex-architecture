@@ -9,9 +9,9 @@ group "Placing an ASA Escrow Order: ASA Orderbook Opt-in"
 autonumber 0
 Seller -> ASAEscrow: Send future .5 txn fees into escrow
 ASAEscrow -> ASAOB: App opt-in
-note left: TEAL attached\nfor spend approval
+note left: TEAL attached\nfor approval
 ASAEscrow -> ASAEscrow: ASA opt-in
-note right: TEAL attached\nfor spend approval
+note right: TEAL attached\nfor approval
 Seller -> ASAEscrow: Send ASA to be sold to escrow
 end
 

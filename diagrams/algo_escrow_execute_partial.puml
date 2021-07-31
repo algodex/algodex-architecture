@@ -7,8 +7,8 @@ note over AlgoEscrow: ALGO reserved for buy
 
 group "Algo Escrow Pay (Order Exec)\nPartial Exec. - Initiated by ASA Seller"
 autonumber 0
-AlgoEscrow -> ASAOB: app call
-note left: TEAL attached\nfor spend approval
+AlgoEscrow -> AlgoOB: app call
+note left: TEAL attached\nfor approval
 AlgoEscrow -> Seller: ALGO payment\nof partial order amount
 note right: TEAL attached\nfor spend approval
 Seller -> Buyer: Asset send\nof partial sell amount\nto buy escrow owner
