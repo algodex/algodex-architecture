@@ -1,14 +1,13 @@
 @startuml
-actor Buyer
-actor Seller
-control "Algo Escrow (Buy)\nStateless" as AlgoEscrow
-database "Algo OB\nStateful" as AlgoOB
-note over AlgoEscrow: ALGO reserved for buy
+actor "Buyer \n(Algo Escrow Owner)" as Buyer
+control "Algo Escrow (Buy Order)\nStateless" as AlgoEscrow
+database "Algo Order Book\nStateful" as AlgoOB
+note over AlgoEscrow: Algo reserved for buy
 
-group "Placing an Algo Escrow Order: Orderbook Opt-In & Registration"
+group "Placing an Algo Escrow Order: Order Book Opt-In & Registration"
 autonumber 0
 Buyer -> AlgoEscrow: Pay from order creator to escrow
-note right: send X ALGO\nto pay for Y ASA
+note right: send X Algo\nto pay for Y ASA
 AlgoEscrow -> AlgoOB: [if necessary] App opt-in
 note left: TEAL attached\nfor approval
 Buyer -> Buyer: [if necessary] Opt-in to ASA to buy
