@@ -1,11 +1,10 @@
 @startuml
-actor Buyer
-actor Seller
-control "ASA Escrow (Sell)\nStateless" as ASAEscrow
-database "ASA OB\nStateful" as ASAOB
-note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
+actor "Seller \n(ASA Escrow Owner)" as Seller
+control "ASA Escrow (Sell Order)\nStateless" as ASAEscrow
+database "ASA Order Book\nStateful" as ASAOB
+note over ASAEscrow: Min .5 Algo bal.\n+ ASA to sell
 
-group "Placing an ASA Escrow Order: ASA Orderbook Opt-in"
+group "Placing an ASA Escrow Order: ASA Order Book Opt-in"
 autonumber 0
 Seller -> ASAEscrow: Send future .5 txn fees into escrow
 ASAEscrow -> ASAOB: App opt-in

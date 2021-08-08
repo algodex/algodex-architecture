@@ -1,19 +1,18 @@
 @startuml
-actor Buyer
-actor Seller
-control "ASA Escrow (Sell)\nStateless" as ASAEscrow
-database "ASA OB\nStateful" as ASAOB
-note over ASAEscrow: Min .5 ALGO bal.\n+ ASA to sell
+actor "Seller \n(ASA Escrow Owner)" as Seller
+control "ASA Escrow (Sell Order)\nStateless" as ASAEscrow
+database "ASA Order Book\nStateful" as ASAOB
+note over ASAEscrow: Min .5 Algo bal.\n+ ASA to sell
 
 group "ASA Escrow Cancel-Order - Initiated By ASA Escrow Owner"
 autonumber 0
 ASAEscrow -> ASAOB: app call to clear
 note left: TEAL attached\nfor approval
-ASAEscrow -> Seller: ASA 'close-to'
+ASAEscrow -> Seller: ASA 'close-to' to owner
 note right: TEAL attached\nfor approval
-ASAEscrow -> Seller: refund txn fees (ALGO 'close-to')
+ASAEscrow -> Seller: refund txn fees (Algo 'close-to')
 note right: TEAL attached\nfor approval
-Seller -> Seller: 0 ALGO payment\nto ensure ownership
+Seller -> Seller: 0 Algo payment\nto prove ownership
 end
 
 @enduml

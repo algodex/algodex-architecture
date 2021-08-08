@@ -11,7 +11,7 @@ Transaction Types
 There are 4 smart contracts: 
 
 ===========================================================
-ALGO ESCROWS (orders to buy ASAs via escrow accounts) - STATELESS contract
+Algo ESCROWS (orders to buy ASAs via escrow accounts) - STATELESS contract
 
 - Only algos are stored in these escrows
 
@@ -26,7 +26,7 @@ ASA escrow contracts are created by makers who wish to sell an ASA, and put a mi
 
 ============================================================
 
-ALGO ORDER BOOK - STATEFUL contract
+Algo ORDER BOOK - STATEFUL contract
 
 This contains the order information for all "Algo Escrows", which are buy orders of assets. The algo escrows opt-in to the Algo Order Book when they are created.
 
@@ -59,7 +59,7 @@ This is the version of the escrow, in case we need to change the escrow versions
   
 ============================================================
 
-ALGO ESCROW TRANSACTION TYPES
+Algo ESCROW TRANSACTION TYPES
   These are each atomic groups of transactions, so all must succeed together, or all will fail.
 
 ///////////////////////////
@@ -67,13 +67,13 @@ ALGO ESCROW TRANSACTION TYPES
 //    Placing an Algo Escrow Order
 //////////////////////////
     // TXN 0 - BUYER TO ESCROW:     Pay from order creator to escrow account
-    // TXN 1 - ESCROW TO ORDERBOOK: Stateful app opt-in to order book
+    // TXN 1 - ESCROW TO Order Book: Stateful app opt-in to order book
     // TXN 2 - BUYER TO BUYER:      (Optional) ASA opt-in for the order creator's original wallet account.
 	
 ////////////////////////////////////////
 //// CLOSEOUT (ORDER CANCELLED) ////////
 ////////////////////////////////////////
-    // TXN 0 - ESCROW TO ORDERBOOK: application call to order book contract for closeout
+    // TXN 0 - ESCROW TO Order Book: application call to order book contract for closeout
     // TXN 1 - ESCROW TO BUYER:     pay txn close out call
     // TXN 2 - BUYER TO BUYER:      send transaction for proof that closeout sender owns the escrow
 
@@ -81,7 +81,7 @@ ALGO ESCROW TRANSACTION TYPES
 // EXECUTE (ORDER EXECUTION)
 //   WITH CLOSEOUT
 /////////////////////////////////
-    // TXN 0 - ESCROW TO ORDERBOOK: transaction must be a call to a stateful contract
+    // TXN 0 - ESCROW TO Order Book: transaction must be a call to a stateful contract
     // TXN 1 - ESCROW TO SELLER:    Payment transaction from this escrow to seller, with closeout to owner (buyer)
     // TXN 2 - SELLER TO BUYER:     Asset transfer from seller to owner of this escrow (buyer)
 	
@@ -89,7 +89,7 @@ ALGO ESCROW TRANSACTION TYPES
 // EXECUTE
 //   (PARTIAL ORDER EXECUTION)
 /////////////////////////////////
-    // TXN 0 - ESCROW TO ORDERBOOK: Transaction must be a call to a stateful contract
+    // TXN 0 - ESCROW TO Order Book: Transaction must be a call to a stateful contract
     // TXN 1 - ESCROW TO SELLER:    Payment transaction from this escrow to seller
     // TXN 2 - SELLER TO BUYER:     Asset transfer from seller to owner of this escrow (buyer)
     // TXN 3 - SELLER TO ESCROW:    Pay fee refund transaction
@@ -104,7 +104,7 @@ ASA ESCROW TRANSACTION TYPES
 //   Placing an ASA Escrow Order. The escrow opts into the order book.
 ///////////////////////////////////////////////////////////////////////
     // TXN 0 - SELLER TO ESCROW:    pay transaction into escrow
-    // TXN 1 - ESCROW TO ORDERBOOK: application opt in
+    // TXN 1 - ESCROW TO Order Book: application opt in
     // TXN 2 - ESCROW TO ESCROW:    asset opt in
     // TXN 3 - SELLER TO ESCROW:    asset transfer
 	
@@ -113,7 +113,7 @@ ASA ESCROW TRANSACTION TYPES
 //    Cancelling an order and refunding the amounts
 ////////////////////////////////////////////////////////
 
-    // TXN 0 - ESCROW TO ORDERBOOK: app call to close order
+    // TXN 0 - ESCROW TO Order Book: app call to close order
     // TXN 1 - ESCROW TO SELLER: asset transfer (escrow to owner)
     // TXN 2 - ESCROW TO SELLER: pay transaction (from escrow to owner)
     // TXN 3 - SELLER TO SELLER: proof of ownership pay transaction (owner to owner)
@@ -122,7 +122,7 @@ ASA ESCROW TRANSACTION TYPES
 // EXECUTE (partial)                                                        
 //  Partial execution of an ASA escrow, where an ASA balance remains in it  
 //////////////////////////////////////////////////////////////////////////////
-    // TXN 0   - ESCROW TO ORDERBOOK: Application call to execute
+    // TXN 0   - ESCROW TO Order Book: Application call to execute
     // TXN 1   - BUYER TO SELLER:     Pay transaction (from buyer/executor to escrow owner)
     // TXN 2   - BUYER TO BUYER:      (Optional) asset opt-in transaction (for buyer/executor)
     // TXN 2/3 - ESCROW TO BUYER:     Asset transfer (from escrow to buyer/executor)
@@ -132,7 +132,7 @@ ASA ESCROW TRANSACTION TYPES
 // EXECUTE WITH CLOSE
 //   Full order execution where the remaining minimum algo balance is closed to the escrow owner
 /////////////////////////////////////////////////////////////////////////////////////////////////
-    // TXN 0   - ESCROW TO ORDERBOOK: Application call to execute
+    // TXN 0   - ESCROW TO Order Book: Application call to execute
     // TXN 1   - BUYER TO SELLER:     Pay transaction (from buyer/executor to escrow owner)
     // TXN 2   - BUYER TO BUYER:      (Optional) asset opt-in transaction (for buyer/executor)
     // TXN 2/3 - ESCROW TO BUYER:     Asset transfer (from escrow to buyer/executor)
