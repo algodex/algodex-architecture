@@ -1,0 +1,40 @@
+/tmp/msgpack164582908[0]
+{
+  "sig": "g/4X0KV5jP9WBrlMXiJtVSHqyZVmEb7z1fjmLGs1oPmUOjT25NC9OfkNjOYJW32oLnr89uKkwO993RXh6qyeBg==",
+  "txn": {
+    "amt": 1857600,
+    "fee": 1000,
+    "fv": 15904360,
+    "gen": "testnet-v1.0",
+    "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+    "grp": "NannJg97Fo8J3jPODowx4BYeFt1r9v/AGXupbHOjm8Y=",
+    "lv": 15905360,
+    "rcv": "WLPX2LS6HNQ6PRYH3L3SMNRJTBQXDNA6OBQO2NXDE3BRRWSVQ77R7U6ORU",
+    "snd": "XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA",
+    "type": "pay"
+  }
+}
+
+/tmp/msgpack164582908[1]
+{
+  "lsig": {
+    "l": "#pragma version 4\nintcblock 1 0 3 6 4 2 18988007 1000 15322902\nbytecblock 0xb9cc0683927572a3f0c69496063b23adad545e7d1e4282191b35f4424aa5694c\nintc_1 // 0\nstore 9\nload 9\ngtxns RekeyTo\nglobal ZeroAddress\n==\nassert\nload 9\ngtxns AssetCloseTo\nglobal ZeroAddress\n==\nassert\nload 9\nintc_0 // 1\n+\nstore 9\nload 9\nglobal GroupSize\n<\nbnz label1\nglobal GroupSize\nintc 5 // 2\n==\nglobal GroupSize\nintc_2 // 3\n==\n||\ngtxn 0 TypeEnum\nintc_0 // 1\n==\n&&\ngtxn 1 TypeEnum\nintc_3 // 6\n==\n&&\ngtxn 0 Amount\npushint 500000\n>=\n&&\ngtxn 1 Amount\nintc_1 // 0\n==\n&&\ngtxn 0 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 1 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 0 OnCompletion\nintc_1 // 0\n==\n&&\ngtxn 1 OnCompletion\nintc_0 // 1\n==\n&&\ngtxn 1 ApplicationID\nintc 6 // 18988007\n==\n&&\ngtxn 0 Sender\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 1 Sender\ntxn Sender\n==\n&&\ngtxn 0 Receiver\ntxn Sender\n==\n&&\nstore 0\nglobal GroupSize\nintc 5 // 2\n==\nstore 1\nload 1\nbnz label2\ngtxn 2 TypeEnum\nintc 4 // 4\n==\ngtxn 2 AssetAmount\nintc_1 // 0\n==\n&&\ngtxn 2 Sender\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 2 OnCompletion\nintc_1 // 0\n==\n&&\nintc 8 // 15322902\ngtxn 2 XferAsset\n==\n&&\nstore 1\nlabel2:\nload 0\nload 1\n&&\nbz label3\nintc_0 // 1\nreturn\nlabel3:\nglobal GroupSize\nintc_2 // 3\n==\ngtxn 0 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 1 CloseRemainderTo\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 2 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 0 Sender\ntxn Sender\n==\n&&\ngtxn 1 Sender\ntxn Sender\n==\n&&\ngtxn 2 Sender\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 0 TypeEnum\nintc_3 // 6\n==\n&&\ngtxn 1 TypeEnum\nintc_0 // 1\n==\n&&\ngtxn 2 TypeEnum\nintc_0 // 1\n==\n&&\ngtxn 0 Amount\nintc_1 // 0\n==\n&&\ngtxn 1 Amount\nintc_1 // 0\n==\n&&\ngtxn 2 Amount\nintc_1 // 0\n==\n&&\ngtxn 0 OnCompletion\nintc_2 // 3\n==\n&&\ngtxn 1 OnCompletion\nintc_1 // 0\n==\n&&\ngtxn 2 OnCompletion\nintc_1 // 0\n==\n&&\nbz label4\nintc_0 // 1\nreturn\nlabel4:\ngtxn 1 CloseRemainderTo\nglobal ZeroAddress\n==\nbnz label5\ngtxn 0 OnCompletion\nintc 5 // 2\n==\nglobal GroupSize\nintc_2 // 3\n==\n&&\ngtxn 0 TypeEnum\nintc_3 // 6\n==\n&&\ngtxn 1 TypeEnum\nintc_0 // 1\n==\n&&\ngtxn 2 TypeEnum\nintc 4 // 4\n==\n&&\ntxn Fee\nintc 7 // 1000\n<=\n&&\ngtxn 0 ApplicationID\nintc 6 // 18988007\n==\n&&\ngtxn 0 Sender\ntxn Sender\n==\n&&\ngtxn 1 Sender\ntxn Sender\n==\n&&\ngtxn 2 Sender\ntxn Sender\n!=\n&&\ngtxn 1 Receiver\ngtxn 2 Sender\n==\n&&\ngtxn 2 AssetReceiver\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 0 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 1 CloseRemainderTo\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 2 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\nassert\nb label6\nlabel5:\ngtxn 0 OnCompletion\nintc_1 // 0\n==\ntxn CloseRemainderTo\nglobal ZeroAddress\n==\n&&\nglobal GroupSize\nintc 4 // 4\n==\n&&\ngtxn 0 TypeEnum\nintc_3 // 6\n==\n&&\ngtxn 1 TypeEnum\nintc_0 // 1\n==\n&&\ngtxn 2 TypeEnum\nintc 4 // 4\n==\n&&\ngtxn 3 TypeEnum\nintc_0 // 1\n==\n&&\ngtxn 3 Amount\npushint 2000\n>=\n&&\ngtxn 3 Receiver\ntxn Sender\n==\n&&\ngtxn 3 Sender\ngtxn 1 Receiver\n==\n&&\ngtxn 0 Sender\ntxn Sender\n==\n&&\ngtxn 1 Sender\ntxn Sender\n==\n&&\ngtxn 2 Sender\ntxn Sender\n!=\n&&\ngtxn 3 Sender\ntxn Sender\n!=\n&&\ntxn Fee\nintc 7 // 1000\n<=\n&&\ngtxn 0 ApplicationID\nintc 6 // 18988007\n==\n&&\ngtxn 1 Sender\ntxn Sender\n==\n&&\ngtxn 1 Receiver\ngtxn 2 Sender\n==\n&&\ngtxn 2 AssetReceiver\nbytec_0 // addr XHGANA4SOVZKH4GGSSLAMOZDVWWVIXT5DZBIEGI3GX2EESVFNFGFTHJATA\n==\n&&\ngtxn 0 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 1 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 2 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\ngtxn 3 CloseRemainderTo\nglobal ZeroAddress\n==\n&&\nassert\nlabel6:\ngtxn 1 Amount\nintc_0 // 1\n>=\ngtxn 2 AssetAmount\nintc_0 // 1\n>=\n&&\nintc 8 // 15322902\ngtxn 2 XferAsset\n==\n&&\nassert\ngtxn 2 AssetAmount\npushint 387\nmulw\nstore 2\nstore 1\ngtxn 1 Amount\nintc 7 // 1000\nmulw\nstore 4\nstore 3\nload 1\nload 3\n>\nbnz label7\nload 1\nload 3\n==\nload 2\nload 4\n>=\n&&\nbnz label7\nerr\nlabel7:\nintc_0 // 1\nreturn\n"
+  },
+  "txn": {
+    "apaa": [
+      "b3Blbg==",
+      "MTAwMC0zODctMC0xNTMyMjkwMg==",
+      "Aw=="
+    ],
+    "apan": 1,
+    "apid": 18988007,
+    "fee": 1000,
+    "fv": 15904360,
+    "gen": "testnet-v1.0",
+    "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+    "grp": "NannJg97Fo8J3jPODowx4BYeFt1r9v/AGXupbHOjm8Y=",
+    "lv": 15905360,
+    "snd": "WLPX2LS6HNQ6PRYH3L3SMNRJTBQXDNA6OBQO2NXDE3BRRWSVQ77R7U6ORU",
+    "type": "appl"
+  }
+}
