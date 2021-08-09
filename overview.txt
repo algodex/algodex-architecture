@@ -13,13 +13,14 @@ There are 4 smart contracts:
 ===========================================================
 ALGO ESCROWS (orders to buy ASAs via escrow accounts) - STATELESS contract
 
+- Minimum algo balance of 0.5 algos is stored in these escrows
 - Only algos are stored in these escrows
 
 Algo escrow contracts are created by makers who wish to buy an ASA, and put algos into an escrow account. A taker must execute the trade by withdrawing the algos from the escrow and sending the ASA to the escrow owner. The price must be met. For partial executions, the fees must also be reimbursed by the taker.
 
 ===========================================================
 ASA ESCROWS (orders to sell ASAs via escrow accounts) - STATELESS contract
-- Minimum algo balance of 0.46 algos is stored in these escrows
+- Minimum algo balance of 0.5 algos is stored in these escrows
 - ASA listed for sale is also stored
 
 ASA escrow contracts are created by makers who wish to sell an ASA, and put a minimum algo balance plus the ASA into an escrow account. A taker must execute the trade by withdrawing the ASA from the escrow and sending algos to the escrow owner. The price must be met. For partial executions, the fees must also be reimbursed by the taker. After full executions, the algo minimum balance is returned to the order creator.
