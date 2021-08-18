@@ -12,6 +12,9 @@
     "dexidx:account:{account Z...}" : "{account json} TTL 7d",
     "dexidx:asset:info:{asset id x}" : "{asset json} TTL 1h",
     "dexidx:asset:info:{asset id y}" : "{asset json} TTL 1h",
-    "dexidx:asset:info:{asset id z...}" : "{asset json} TTL 1h"
+    "dexidx:asset:info:{asset id z...}" : "{asset json} TTL 1h",
+    "trade_history:assetId:{asset id x}" : "{trade history json} TTL 12h",
+    "charts:assetId:{asset id y}" : "{charts json} TTL 12h",
+    "orders:assetId:{asset id z}" : "{orders json} TTL 12h"
 }
 @endjson
