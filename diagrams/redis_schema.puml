@@ -17,10 +17,10 @@
     "charts:assetId:{asset id y}" : "{charts json} TTL 12h",
     "orders:assetId:{asset id z}" : "{orders json} TTL 12h",
     "nonPriceAssetInfo:{asset id x}" : "{asset json} TTL 12h",
-    "asset_by_id:assetId{asset id y}" : "{asset json} TTL 12h",
-    "trade_history:ownerAddr{ownerAddr a}" : "{trade history json} TTL 12h",
+    "asset_by_id:assetId:{asset id y}" : "{asset json} TTL 12h",
+    "trade_history:ownerAddr:{ownerAddr a}" : "{trade history json} TTL 12h",
     "orders:ownerAddr:{ownerAddr b}" : "{orders json} TTL 12h",
-    "wallet_assets:orders:ownerAddr{ownerAddr c}" : "{wallet assets json} TTL 12h",
+    "wallet_assets:orders:ownerAddr:{ownerAddr c}" : "{wallet assets json} TTL 12h",
     "recent_trade_info" : "{recent trade info json} TTL 12h"
 }
 @endjson
