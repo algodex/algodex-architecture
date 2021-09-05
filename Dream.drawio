@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-05T03:59:49.913Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="GpfDXqrUgeb2foWMh-lO" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-05T04:27:29.401Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="IlJzAmxCeqTyWED3neRu" version="15.0.6" type="github">
   <diagram id="tJ-TtfcXqpHzfjzBwCbB" name="Page-1">
     <mxGraphModel dx="796" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yJhl_CgLUmFzM6Lcxhxq-17" target="yJhl_CgLUmFzM6Lcxhxq-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="yJhl_CgLUmFzM6Lcxhxq-17" target="yJhl_CgLUmFzM6Lcxhxq-39" edge="1">
+        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=1;endArrow=classic;endFill=1;" parent="1" source="yJhl_CgLUmFzM6Lcxhxq-86" target="yJhl_CgLUmFzM6Lcxhxq-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-17" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_partition_5.svg;" parent="1" vertex="1">
@@ -146,14 +146,23 @@
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-77" value="Optional" style="swimlane;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="210" y="510" width="280" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-86" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.json;gradientColor=#DFDEDE" parent="1" vertex="1">
-          <mxGeometry x="560" y="870" width="102.4" height="102.4" as="geometry" />
-        </mxCell>
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-89" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="20" y="440" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-90" value="Binary Protocol Buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="28" y="408" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NVAe1n8Oyykqkg-l4q4r-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/graphql-128.png;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="896.6" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-86" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.json;gradientColor=#DFDEDE" parent="1" vertex="1">
+          <mxGeometry x="500" y="896.6" width="50" height="43.4" as="geometry" />
+        </mxCell>
+        <mxCell id="NVAe1n8Oyykqkg-l4q4r-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=1;" edge="1" parent="1" source="yJhl_CgLUmFzM6Lcxhxq-17" target="yJhl_CgLUmFzM6Lcxhxq-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="821" as="sourcePoint" />
+            <mxPoint x="43.75" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
