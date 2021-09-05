@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-05T04:27:29.401Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="IlJzAmxCeqTyWED3neRu" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-05T04:28:04.231Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="MlmedV0w132cWVUa5meB" version="15.0.6" type="github">
   <diagram id="tJ-TtfcXqpHzfjzBwCbB" name="Page-1">
     <mxGraphModel dx="796" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
             <mxPoint x="310" y="814.8235294117646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-35" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.worker_role;fillColor=#FF33FF;" parent="1" vertex="1">
+        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-35" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.worker_role;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="375" y="795" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-39" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" parent="1" vertex="1">
@@ -143,7 +143,7 @@
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-66" value="Message Subscriptions from Client and publications from the chain broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="599" width="70" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-77" value="Optional" style="swimlane;fillColor=#66FFFF;" parent="1" vertex="1">
+        <mxCell id="yJhl_CgLUmFzM6Lcxhxq-77" value="Optional Stream Processing" style="swimlane;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="210" y="510" width="280" height="370" as="geometry" />
         </mxCell>
         <mxCell id="yJhl_CgLUmFzM6Lcxhxq-89" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png;fillColor=#66FFFF;" parent="1" vertex="1">
