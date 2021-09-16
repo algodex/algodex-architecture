@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T19:39:28.936Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="EqVK360VgKIabi5PxbQ0" version="15.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-16T19:52:45.169Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="G9huz-CKY9wlRj8tr---" version="15.2.4" type="github" pages="2">
   <diagram id="TTR6LDJH_ajYnn4JlRtx" name="Current">
     <mxGraphModel dx="1987" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G4L9le8OE-tiCaIjhnE1" name="Solution">
-    <mxGraphModel dx="1327" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1137" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9FNmpddyWYxxzXF2j5aG-0" />
         <mxCell id="9FNmpddyWYxxzXF2j5aG-1" parent="9FNmpddyWYxxzXF2j5aG-0" />
@@ -242,7 +242,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NBru6ew34taAiOUr-k7r-21" value="Block&lt;br&gt;Worker" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NBru6ew34taAiOUr-k7r-12">
-          <mxGeometry x="230" y="470" width="100" height="100" as="geometry" />
+          <mxGeometry x="231" y="470" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NBru6ew34taAiOUr-k7r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NBru6ew34taAiOUr-k7r-12" source="NBru6ew34taAiOUr-k7r-22" target="NBru6ew34taAiOUr-k7r-17">
           <mxGeometry relative="1" as="geometry" />
@@ -280,22 +280,8 @@
         <mxCell id="NBru6ew34taAiOUr-k7r-52" value="Pub/Sub" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="NBru6ew34taAiOUr-k7r-12">
           <mxGeometry x="191" y="360" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NBru6ew34taAiOUr-k7r-51" value="Shared &lt;br&gt;Corutine" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
-          <mxGeometry x="1140" y="260" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="NBru6ew34taAiOUr-k7r-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9FNmpddyWYxxzXF2j5aG-1" source="NBru6ew34taAiOUr-k7r-14" target="NBru6ew34taAiOUr-k7r-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NBru6ew34taAiOUr-k7r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9FNmpddyWYxxzXF2j5aG-1" source="NBru6ew34taAiOUr-k7r-21" target="NBru6ew34taAiOUr-k7r-51">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1020" y="590" />
-              <mxPoint x="1020" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NBru6ew34taAiOUr-k7r-56" value="&lt;h1&gt;Coroutine and Pub/Sub&lt;/h1&gt;&lt;p&gt;A Coroutine is just a function that runs in it&#39;s own isolated process context. Certain threading models like PHP don&#39;t give you much control over how the thread workers fork. Any Coroutine library should make this process easier(Swoole/Coroutine).&amp;nbsp;&lt;br&gt;&lt;br&gt;Coroutines are great for a single system with many threads but does not solve for horizontal scaling. This is done via Pub/Sub&lt;br&gt;&lt;br&gt;Pub/Sub is a model where we transmit messages to unknown receivers. A form of Pub/Sub called MessageQueue is the primary use case for our services. This will be in a First In First Out pattern.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
-          <mxGeometry x="1110" y="-80" width="300" height="250" as="geometry" />
+          <mxGeometry x="920" y="-260" width="300" height="250" as="geometry" />
         </mxCell>
         <mxCell id="NBru6ew34taAiOUr-k7r-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="9FNmpddyWYxxzXF2j5aG-1" source="NBru6ew34taAiOUr-k7r-57" target="NBru6ew34taAiOUr-k7r-7">
           <mxGeometry relative="1" as="geometry" />
@@ -332,11 +318,25 @@
         <mxCell id="NBru6ew34taAiOUr-k7r-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="9FNmpddyWYxxzXF2j5aG-1" source="NBru6ew34taAiOUr-k7r-63" target="NBru6ew34taAiOUr-k7r-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NBru6ew34taAiOUr-k7r-71" value="algoexplorerapi.io/v1/search/" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NBru6ew34taAiOUr-k7r-64">
+          <mxGeometry x="0.2245" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NBru6ew34taAiOUr-k7r-63" value="Asset Info/&lt;br&gt;Explorer Data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
           <mxGeometry x="266" y="-50" width="88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NBru6ew34taAiOUr-k7r-65" value="&lt;h1&gt;Asset Info&lt;/h1&gt;&lt;p&gt;We should not need Explorer meta data, the clients can fetch this for themselves&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
           <mxGeometry x="220" y="20" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NBru6ew34taAiOUr-k7r-68" value="&lt;h1&gt;Workers&lt;/h1&gt;&lt;div&gt;Workers are scaleable instances that receive &quot;job data&quot; to process. These may not be necessary in the future since most of the data can be mapped and reduced for Coroutines and|or direct client retreival.&amp;nbsp;&lt;br&gt;&lt;br&gt;They should leverage their own coroutines that can be shared across the ecosystem for things like Map functions.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
+          <mxGeometry x="434" y="455" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NBru6ew34taAiOUr-k7r-69" value="&lt;h1&gt;Coroutines&lt;/h1&gt;&lt;div&gt;Reusable bits of code that can run as an independent thread/process. These are usually calculations or map/reduce functions in order to speed up a main process that spawned them.&lt;br&gt;&lt;br&gt;These will mostly be used by the Workers and|or the Broker itself&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
+          <mxGeometry x="1080" y="740" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NBru6ew34taAiOUr-k7r-70" value="&lt;h1&gt;Brokers&lt;/h1&gt;&lt;div&gt;Filter, Massage and pass data&lt;br&gt;&lt;br&gt;Brokers are non-trivial to scale outside of sharding by key. This means they should only do the minimal amount of work to translate the incoming message to the outgoing message. This should not include any Database or Redis writes/reads. (other than inital state)&lt;br&gt;&lt;br&gt;Any process that needs to be done must be done async and in a coroutine. Most data should flow &quot;through&quot; the broker to other consumers via the Pub/Sub MQ&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9FNmpddyWYxxzXF2j5aG-1">
+          <mxGeometry x="1070" y="165" width="190" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
