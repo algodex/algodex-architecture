@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T02:23:54.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="aP3Sw1FUyM4ntpV5sMtO" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T02:27:10.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="y5aXON6_DRZLrZlFW6SU" version="15.0.6" type="github">
   <diagram id="jOm69LvnKSWGPFC7FAeF" name="Page-1">
-    <mxGraphModel dx="1220" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2070" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,16 +49,20 @@
         <mxCell id="FtlkA-3NcjgdnIDQOIZH-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/git-branch-128.png" vertex="1" parent="1">
           <mxGeometry x="112" y="290" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="FtlkA-3NcjgdnIDQOIZH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=13;" edge="1" parent="1" source="FtlkA-3NcjgdnIDQOIZH-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="74" y="-200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FtlkA-3NcjgdnIDQOIZH-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/git-branch-128.png" vertex="1" parent="1">
           <mxGeometry x="42" y="-90" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="FtlkA-3NcjgdnIDQOIZH-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/git-compare-128.png" vertex="1" parent="1">
           <mxGeometry x="112" y="-246.25" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="FtlkA-3NcjgdnIDQOIZH-37" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/git-pull-request-128.png" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-210" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="FtlkA-3NcjgdnIDQOIZH-38" value="v1.X.X.X" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-128.png" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-118.25" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="FtlkA-3NcjgdnIDQOIZH-40" value="V2.X.X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-118" width="150" height="128" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
