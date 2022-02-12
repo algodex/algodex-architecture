@@ -1,1 +1,172 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T19:21:24.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" version="16.4.7" etag="J07jEECC4N9FHPhEo_yC" type="github"><diagram id="-1Hhl8--CniqeKGSApOZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-12T00:25:48.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="rfAeFHuyq-3uePMcWuau" version="16.4.7" type="github">
+  <diagram id="-1Hhl8--CniqeKGSApOZ" name="Page-1">
+    <mxGraphModel dx="2116" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-2" target="4ZSbI4Bsx3a_tyZ3oSvv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-2" target="4ZSbI4Bsx3a_tyZ3oSvv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.blockchain_resource;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="22.5" width="23" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-4" target="4ZSbI4Bsx3a_tyZ3oSvv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-50" value="Asset Information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-49">
+          <mxGeometry x="0.8851" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-4" value="Algorand Node/Indexer" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100.5" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-5" target="4ZSbI4Bsx3a_tyZ3oSvv-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="274" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-22" value="orders.php" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-19">
+          <mxGeometry x="0.7993" relative="1" as="geometry">
+            <mxPoint x="46" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-5" target="4ZSbI4Bsx3a_tyZ3oSvv-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="274" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-71" value="assets.php" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-70">
+          <mxGeometry x="0.6201" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-5" target="4ZSbI4Bsx3a_tyZ3oSvv-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="274" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-73" value="orderbook.php" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-72">
+          <mxGeometry x="0.7901" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-5" value="Algodex API" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-6" value="&lt;h1&gt;MVoT&lt;/h1&gt;&lt;p&gt;Multiple Versions of Truth diagram.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="20" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-25" value="Lookup Tables" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="590" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-8" value="&lt;h1&gt;Orderbook Prices&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;ok&quot;: true,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;rows&quot;: 1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;offset&quot;: 0,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;data&quot;: [{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;price&quot;: 1234,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;amount&quot;: 23,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;total&quot;: 100000&lt;/p&gt;&lt;p&gt;&amp;nbsp; }]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry y="450" width="210" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-35" value="&lt;h1&gt;Orderbook.php&lt;/h1&gt;&lt;p&gt;Looks for Active Orders in the OrderBook. If an asset has orders, it will be available in the response. Otherwise it will be an empty response.&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id: Integer - Asset ID (Required)&lt;br&gt;&lt;br&gt;type: String - Order Type [buy, sell] (Required)&lt;br&gt;&lt;br&gt;size: Integer - Filter by Order Size&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry x="230" y="515" width="260" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-46" value="&lt;h1&gt;Orders.php&lt;/h1&gt;&lt;p&gt;Returns a list of on chain orders. This is the actual order state which can be used to execute trades against.&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id: Integer - Asset Id (Required)&lt;br&gt;&lt;br&gt;price: Integer - Orderbook Price Filter&lt;br&gt;&lt;br&gt;size: Integer - Order SIze Filter&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry x="228.5" y="820" width="253" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-9" value="&lt;h1&gt;Orders&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;ok&quot;: true,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;rows&quot;: 1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;offset&quot;: 0,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;data&quot;: [&lt;span&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&quot;version&quot;: 3,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&quot;amount&quot;: 994857,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&quot;price&quot;: 1994999999,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&quot;application-id&quot;: 22045522,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&quot;address&quot;: &quot;BZTYHXYCZ2SMXJW7TPFVQKU6VM4AVF2HA2GGOF4TCT2ADZIGUTSP4YKLCQ&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&quot;timestamp&quot;: 1638119004&lt;/p&gt;&lt;p&gt;&lt;span&gt;}&lt;/span&gt;]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry y="820" width="546" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-26" value="&lt;h1&gt;Assets&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;ok&quot;: true,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;rows&quot;: 1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;data&quot;: [&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: 22074963,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;unix_time&quot;: 1644538367,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;price&quot;: 36000000,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;priceBefore&quot;: 33000000,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;price24Change&quot;: 9.090909090909092,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isTraded&quot;: true,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isOrdered&quot;:&amp;nbsp; true&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p&gt;&amp;nbsp; ]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry x="2" y="30" width="260" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-36" value="&lt;h1&gt;Assets.php&lt;/h1&gt;&lt;p&gt;Current prices and state of all traded/ordered assets in Algodex&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id[]: Array&amp;lt;Integer&amp;gt;| Integer - Asset Id (required)&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry x="240" y="60" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-79" value="Asset&lt;br&gt;Orderbook Price&lt;br&gt;Order Properties" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-76">
+          <mxGeometry x="-0.2826" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-40" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="305" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-41" value="Order" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="487" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-42" value="price: OrderBookPrice || &#39;MARKET&#39; (Required)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-41">
+          <mxGeometry y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-43" value="asset: From Algorand (Required)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-41">
+          <mxGeometry y="60" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-44" value="amount: From Client (Required)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-41">
+          <mxGeometry y="90" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-63" value="type: From Client (Required)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-41">
+          <mxGeometry y="120" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-64" value="size: From Client" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-41">
+          <mxGeometry y="150" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-51" value="SDK" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="157" width="600" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-53" value="&lt;h1&gt;OrderService&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;import &lt;/span&gt;EventEmitter &lt;span style=&quot;color: #cc7832&quot;&gt;from &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;eventemitter3&#39;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;import &lt;/span&gt;WalletService &lt;span style=&quot;color: #cc7832&quot;&gt;from &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;./WalletService&#39;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;import &lt;/span&gt;internalAPI &lt;span style=&quot;color: #cc7832&quot;&gt;from &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;./internal&#39;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;import &lt;/span&gt;{ getOrders } &lt;span style=&quot;color: #cc7832&quot;&gt;from &lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;@algodex/common&#39;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;function &lt;/span&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;OrderService&lt;/span&gt;(wallets) {&lt;br&gt;  &lt;span style=&quot;color: #cc7832&quot;&gt;let &lt;/span&gt;_activeWallet&lt;br&gt;&lt;br&gt;  &lt;span style=&quot;color: #cc7832&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: #cc7832&quot;&gt;typeof &lt;/span&gt;wallets !== &lt;span style=&quot;color: #6a8759&quot;&gt;&#39;undefined&#39; &lt;/span&gt;&amp;amp;&amp;amp; wallets &lt;span style=&quot;color: #cc7832&quot;&gt;instanceof &lt;/span&gt;WalletService) {&lt;br&gt;    _activeWallet = wallets.getActive()&lt;br&gt;  } &lt;span style=&quot;color: #cc7832&quot;&gt;else &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color: #cc7832&quot;&gt;throw new &lt;/span&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;Error&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;You must initialize a wallet or pass a valid wallet in&#39;&lt;/span&gt;)&lt;br&gt;  }&lt;br&gt;&lt;br&gt;  &lt;span style=&quot;color: #cc7832&quot;&gt;let &lt;/span&gt;orderService = &lt;span style=&quot;color: #cc7832&quot;&gt;new &lt;/span&gt;EventEmitter()&lt;br&gt;&lt;br&gt;  orderService.&lt;span style=&quot;color: #ffc66d&quot;&gt;placeOrder &lt;/span&gt;= &lt;span style=&quot;color: #cc7832&quot;&gt;async &lt;/span&gt;(order) =&amp;gt; {&lt;br&gt;    &lt;span style=&quot;color: #cc7832&quot;&gt;let &lt;/span&gt;_orders&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;_result&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #cc7832&quot;&gt;try &lt;/span&gt;{&lt;br&gt;      &lt;span style=&quot;color: #808080&quot;&gt;// Use the Keys of an Order to fetch the State from the API&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;      &lt;/span&gt;_orders = &lt;span style=&quot;color: #cc7832&quot;&gt;await &lt;/span&gt;getOrders({ ...order })&lt;br&gt;    } &lt;span style=&quot;color: #cc7832&quot;&gt;catch &lt;/span&gt;(e) {&lt;br&gt;      &lt;span style=&quot;color: #808080&quot;&gt;// Emit the error if it&#39;s a user error&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;      &lt;/span&gt;orderService.&lt;span style=&quot;color: #ffc66d&quot;&gt;emit&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;error&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;e)&lt;br&gt;      &lt;span style=&quot;color: #808080&quot;&gt;// Handle throwing of serious/developer errors&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;throw &lt;/span&gt;e&lt;br&gt;    }&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: #cc7832&quot;&gt;try &lt;/span&gt;{&lt;br&gt;      &lt;span style=&quot;color: #808080&quot;&gt;// Do the actual order execution&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;      &lt;/span&gt;_result = &lt;span style=&quot;color: #cc7832&quot;&gt;await &lt;/span&gt;internalAPI.executeTxns(_orders&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;_activeWallet)&lt;br&gt;    } &lt;span style=&quot;color: #cc7832&quot;&gt;catch &lt;/span&gt;(e) {&lt;br&gt;      &lt;span style=&quot;color: #808080&quot;&gt;// Emit the error if it&#39;s a user error&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;      &lt;/span&gt;orderService.&lt;span style=&quot;color: #ffc66d&quot;&gt;emit&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;error&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;e)&lt;br&gt;      &lt;span style=&quot;color: #808080&quot;&gt;// Handle throwing of serious/developer errors&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;throw &lt;/span&gt;e&lt;br&gt;    }&lt;br&gt;&lt;br&gt;    orderService.&lt;span style=&quot;color: #ffc66d&quot;&gt;emit&lt;/span&gt;(&lt;span style=&quot;color: #6a8759&quot;&gt;&#39;success&#39;&lt;/span&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;_result)&lt;br&gt;    &lt;span style=&quot;color: #cc7832&quot;&gt;return &lt;/span&gt;_result&lt;br&gt;  }&lt;br&gt;&lt;br&gt;  &lt;span style=&quot;color: #cc7832&quot;&gt;return &lt;/span&gt;orderService&lt;br&gt;}&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-51">
+          <mxGeometry x="20" y="33" width="560" height="795" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-9" target="4ZSbI4Bsx3a_tyZ3oSvv-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1220" />
+              <mxPoint x="1300" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-80" value="Filtered Escrow Orders" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-66">
+          <mxGeometry x="-0.8978" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-44" target="4ZSbI4Bsx3a_tyZ3oSvv-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-36" target="4ZSbI4Bsx3a_tyZ3oSvv-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="335" />
+              <mxPoint x="950" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-77" value="Asset Prices/Available Assets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-74">
+          <mxGeometry x="0.2286" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-35" target="4ZSbI4Bsx3a_tyZ3oSvv-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="858" />
+              <mxPoint x="930" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-78" value="Orderbook Prices" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ZSbI4Bsx3a_tyZ3oSvv-75">
+          <mxGeometry x="0.743" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
