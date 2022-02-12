@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T00:25:48.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="rfAeFHuyq-3uePMcWuau" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-12T00:31:07.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="OIeArH0IA0TC4l769eGM" version="16.4.7" type="github">
   <diagram id="-1Hhl8--CniqeKGSApOZ" name="Page-1">
     <mxGraphModel dx="2116" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,11 +69,11 @@
         <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-25" value="Lookup Tables" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="380" y="200" width="590" height="1220" as="geometry" />
         </mxCell>
-        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-8" value="&lt;h1&gt;Orderbook Prices&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;ok&quot;: true,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;rows&quot;: 1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;offset&quot;: 0,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;data&quot;: [{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;price&quot;: 1234,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;amount&quot;: 23,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;total&quot;: 100000&lt;/p&gt;&lt;p&gt;&amp;nbsp; }]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-8" value="&lt;h1&gt;Orderbook&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;ok&quot;: true,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;rows&quot;: 1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;offset&quot;: 0,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;data&quot;: [{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;price&quot;: 1234,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;amount&quot;: 23,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;total&quot;: 100000&lt;/p&gt;&lt;p&gt;&amp;nbsp; }]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
           <mxGeometry y="450" width="210" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-35" value="&lt;h1&gt;Orderbook.php&lt;/h1&gt;&lt;p&gt;Looks for Active Orders in the OrderBook. If an asset has orders, it will be available in the response. Otherwise it will be an empty response.&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id: Integer - Asset ID (Required)&lt;br&gt;&lt;br&gt;type: String - Order Type [buy, sell] (Required)&lt;br&gt;&lt;br&gt;size: Integer - Filter by Order Size&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
-          <mxGeometry x="230" y="515" width="260" height="285" as="geometry" />
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-35" value="&lt;h1&gt;Orderbook.php&lt;/h1&gt;&lt;p&gt;Looks for Active Orders in the OrderBook. If an asset has orders, it will be available in the response.&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id: Integer - Asset ID (Required)&lt;br&gt;&lt;br&gt;type: String - Order Type [buy, sell] (Required)&lt;br&gt;&lt;br&gt;size: Integer - Filter by Order Size&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry x="228.5" y="420" width="260" height="285" as="geometry" />
         </mxCell>
         <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-46" value="&lt;h1&gt;Orders.php&lt;/h1&gt;&lt;p&gt;Returns a list of on chain orders. This is the actual order state which can be used to execute trades against.&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id: Integer - Asset Id (Required)&lt;br&gt;&lt;br&gt;price: Integer - Orderbook Price Filter&lt;br&gt;&lt;br&gt;size: Integer - Order SIze Filter&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
           <mxGeometry x="228.5" y="820" width="253" height="280" as="geometry" />
@@ -84,8 +84,8 @@
         <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-26" value="&lt;h1&gt;Assets&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;ok&quot;: true,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;rows&quot;: 1,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;data&quot;: [&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: 22074963,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;unix_time&quot;: 1644538367,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;price&quot;: 36000000,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;priceBefore&quot;: 33000000,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;price24Change&quot;: 9.090909090909092,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isTraded&quot;: true,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;isOrdered&quot;:&amp;nbsp; true&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p&gt;&amp;nbsp; ]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
           <mxGeometry x="2" y="30" width="260" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-36" value="&lt;h1&gt;Assets.php&lt;/h1&gt;&lt;p&gt;Current prices and state of all traded/ordered assets in Algodex&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id[]: Array&amp;lt;Integer&amp;gt;| Integer - Asset Id (required)&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
-          <mxGeometry x="240" y="60" width="260" height="210" as="geometry" />
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-36" value="&lt;h1&gt;Assets.php&lt;/h1&gt;&lt;p&gt;Current prices and state of all traded/ordered assets in Algodex.&lt;br&gt;&lt;br&gt;&lt;b&gt;Query Params:&lt;/b&gt;&lt;br&gt;&lt;br&gt;id[]: Array&amp;lt;Integer&amp;gt;| Integer - Asset Id (required)&lt;/p&gt;&lt;p&gt;limit: Integer - Limit response size&lt;br&gt;&lt;br&gt;page: Integer - Page offset&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4ZSbI4Bsx3a_tyZ3oSvv-25">
+          <mxGeometry x="228.5" y="70" width="260" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-40">
           <mxGeometry relative="1" as="geometry">
@@ -153,10 +153,10 @@
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-35" target="4ZSbI4Bsx3a_tyZ3oSvv-40">
+        <mxCell id="4ZSbI4Bsx3a_tyZ3oSvv-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="4ZSbI4Bsx3a_tyZ3oSvv-35" target="4ZSbI4Bsx3a_tyZ3oSvv-40">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="930" y="858" />
+              <mxPoint x="930" y="750" />
               <mxPoint x="930" y="350" />
             </Array>
           </mxGeometry>
